@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+b{
+    color: rgb(255, 70, 70);
+}
+
+.menu-lateral {
+    width: 10%;
+    height: 100vh;
+    background-color: rgb(255, 70, 70);;
+    min-width: 125px;
+}
+
+.ul-pedido {
+    list-style: none;
+    margin-top: 0;
+    font-size: 10px;
+}
+
+.lipedido{
+    margin-top: 0;
+}
+
+.cardápio {
+    width: 60%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    overflow-y: scroll;
+    min-width: 295px;
+}
+
+.menu-categoria {
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-bottom: 5px;
+}
+
+.valor-total {
+    margin-left: 50px;
+    margin-right: 25px;
+    padding-bottom: 5px;
+    color: rgb(255, 70, 70);
+    font-weight: bolder;
+}
+
+.valor-total-div{
+    margin-top: 50px ;
+    display: flex;
+}
+
+.nome-opcao{
+    margin-bottom: 5px;
+}
+
+
+
+.pedidos{
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.flex-display-menu {
+    display: flex;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+
+.flex-display-menu1 {
+    display: flex;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+.menu-categoria-opcoes{
+    width: 100px;
+    min-height: 125px;
+    margin-right: 8px;
+    color: rgb(255, 70, 70);
+    border: 3px solid rgb(255, 70, 70);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.adicionar-ao-pedido{
+    width: 75px;
+    height: 25px;
+    float: left;
+    background-color: white;
+    color: black;
+    display: block;
+}
+
+.adicionar-ao-pedido:hover{
+    display: block;
+}
+
+.menu-categoria-opcoes:hover{
+   color: white;
+   background-color: rgb(255, 70, 70);
+}
+
+.preco{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px rgb(97, 0, 0);
+}
+
+.menu-categorias{
+    width: 100px;
+    height: 150px;
+    min-height: 150px;
+    margin-right: 8px;
+    color: rgb(255, 70, 70);
+    border: 3px solid rgb(255, 70, 70);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.089);
+    cursor: pointer;
+    filter: grayscale();
+}
+.active{
+    color: white;
+    background-color: rgb(255, 70, 70);
+    border: 3px solid rgb(126, 1, 1);
+    filter: none;
+    text-shadow: 2px 2px black;
+}
+
+.nome-aa{
+    margin-top: 10px;
+    text-shadow: 1px 1px rgb(97, 0, 0);
+}
+
+.todos{
+    font-size: 100px;
+    line-height: 180px;
+}
+
+.menu-opcoes{
+    font-size: 16px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.opcao-menu{
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.scroll-pedido{
+    overflow-y: scroll;
+    width: 100%;
+    height: 375px;
+}
+
+.scroll-pedido::-webkit-scrollbar {
+    width: 10px;   
+}
+
+.scroll-pedido::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+.scroll-pedido::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 70, 70);
+}
+
+.opcao-menu:hover{
+    background-color: white;
+    color: rgb(255, 70, 70);
+    border-radius: 5px;
+}
+
+#sair{
+    margin-top: 150px;
+}
+
+.page-flex-content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-categoria{
+    width: 85px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.imgcardapio {
+    width: 70px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.img-pedido{
+    margin-top: 12.5px;
+    width: 50px;
+    float: left;
+    height: 50px;
+}
+
+.botao-finalizar{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bolder;
+    margin: auto;
+    border: 3px solid rgb(255, 70, 70);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(255, 70, 70);
+}
+
+
+.botao-finalizar:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 70, 70);
+}
+
+.pedido-adicionado{
+    width: 100%;
+    height: 75px;
+    color: rgb(255, 70, 70);
+    font-size: 20px;
+    display: flex;
+    border-bottom: 2px solid rgb(255, 70, 70);
+    justify-content: space-evenly;
+    line-height: 75px;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+input{
+    margin-top: 12.5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(255, 70, 70);
+    width: 50%;
+    height: 50px;
+}
+
+.cardápio::-webkit-scrollbar {
+    width: 10px;   
+}
+
+
+.cardápio::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-left:  3px solid rgb(255, 70, 70);
+}
+
+.cardápio::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 70, 70);
+}
+
+
+ 

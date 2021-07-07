@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script type="module" src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="page-flex-content">
+
+        <div class="menu-lateral">
+            <h1 class="logo">LOGO</h1>
+            <ul class="menu-opcoes">
+                <li class="opcao-menu">Home</li>
+                <li class="opcao-menu">Mensagens</li>
+                <li class="opcao-menu">Pedidos</li>
+                <li class="opcao-menu">Contas</li>
+                <li class="opcao-menu">Settings</li>
+                <li class="opcao-menu" id="sair">Sair</li>
+            </ul>
+        </div>
+
+        <div class="cardápio">
+            <h1 class="menu-categoria"><b>Menu </b>Categoria</h1>
+
+            <div class="flex-display-menu">
+
+                <div class="menu-categorias" data-category="lanche">
+                    <img class="img-categoria" src="images/icons/010-burger.svg">
+                    <p class="nome-opcao">Lanches</p>
+                </div>
+
+                <div class="menu-categorias" data-category="pizza">
+                    <img class="img-categoria" src="images/icons/023-pizza-slice.svg">
+                    <p class="nome-opcao">Pizzas</p>
+                </div>
+
+                <div class="menu-categorias" data-category="taco">
+                    <img class="img-categoria" src="images/icons/035-taco.svg">
+                    <p class="nome-opcao">Tacos</p>
+                </div>
+                <div class="menu-categorias" data-category="hotdog">
+                    <img class="img-categoria" src="images/icons/015-hot-dog-1 1.svg">
+                    <p class="nome-opcao">Hotdog</p>
+                </div>
+                <div class="menu-categorias" data-category="porcoes">
+                    <img class="img-categoria" src="images/icons/008-fried-potatoes.svg">
+                    <p class="nome-opcao">Porções</p>
+                </div>
+                <div class="menu-categorias" data-category="all">
+                    <p class="todos"data-category="todos">*</p>
+                </div>
+
+            </div>
+
+            <h1 class="menu-categoria"><b>Escolha </b>Pedido</h1>
+            <div class="flex-display-menu1">
+
+            </div>
+        </div>
+
+        <div class="pedidos">
+            <h1 class="menu-categoria"><b>Seu </b>Pedido</h1>
+            <div class="scroll-pedido">
+
+            </div>
+            
+            <div class="valor-total-div">
+                <p class="valor-total">Valor Total:       R$</p>
+                <p id="valor-total-final" class="valor-total"></p>
+            </div>
+            
+            <div class="botao-finalizar">Finalizar pedido</div>
+        </div>
+
+    </div>
+</body>
+
+</htm
